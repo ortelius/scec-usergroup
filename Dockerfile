@@ -7,7 +7,7 @@ RUN go install github.com/swaggo/swag/cmd/swag@latest; \
     swag init; \
     go build -o main .
 
-FROM cgr.dev/chainguard/glibc-dynamic@sha256:03bf4a94000b2cf970589bacd2fba436e3bb7be548c88e251dde2aa678b2b868
+FROM cgr.dev/chainguard/glibc-dynamic@sha256:aa72299ff167347676414f075ea307bef67d32141658d74a740115f9c08dcc5c
 
 WORKDIR /app
 
